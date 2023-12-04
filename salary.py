@@ -1,4 +1,3 @@
-userData = {}
 salary = 3800000
 hourlyOvertimeRate = 110000
 
