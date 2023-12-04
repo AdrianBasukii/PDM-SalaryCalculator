@@ -18,17 +18,20 @@ while True:
     if levelOfAllowance == 1:
             salary += numberOfOvertime * hourlyOvertimeRate
             salary += 3800000 * 0.05
+            print("-----------------------------------------")
             print(f"The Total Salary is: {int(salary)}")
             break
 
     elif levelOfAllowance == 2:
             salary += numberOfOvertime * hourlyOvertimeRate
             salary += 3800000 * 0.1
+            print("-----------------------------------------")
             print(f"The Total Salary is: {int(salary)}")
             break
 
     elif levelOfAllowance == 3:
             salary += numberOfOvertime * hourlyOvertimeRate
             salary += 3800000 * 0.15
+            print("-----------------------------------------")
             print(f"The Total Salary is: {int(salary)}")
             break
