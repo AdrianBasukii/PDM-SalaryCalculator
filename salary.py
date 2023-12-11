@@ -2,10 +2,10 @@ salary = 3800000
 hourlyOvertimeRate = 110000
 
 numberOfOvertime = (input("Enter the number of overtime: "))
-while not (numberOfOvertime.isdigit()) or not (int(numberOfOvertime) <= 20 and int(numberOfOvertime) >= 0):
+while (numberOfOvertime.isalpha()) or not (float(numberOfOvertime) <= 20 and float(numberOfOvertime) >= 0):
         print(f"Please enter a number in range of 0 and 20")
         numberOfOvertime = (input("Enter the number of overtime: "))
-numberOfOvertime = int(numberOfOvertime)
+numberOfOvertime = float(numberOfOvertime)
 
 levelOfAllowance = (input("Enter level of allowance: "))
 while levelOfAllowance not in ["1","2","3"]:
